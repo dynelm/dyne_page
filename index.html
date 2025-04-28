@@ -94,6 +94,14 @@
             font-size: 0.95em;
             color: #555;
         }
+        .scholar-iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
         footer {
             margin-top: 50px;
             text-align: center;
@@ -106,85 +114,86 @@
 <body>
     <header>
         <h1>著名学者信息</h1>
-        <p class="subtitle">学术领袖的Google Scholar和个人主页</p >
+        <p class="subtitle">学术领袖的Google Scholar和个人主页</p>
     </header>
 
     <div class="scholars-container">
         <!-- 学者 1 -->
         <div class="scholar-card">
-            < img src="/api/placeholder/150/150" alt="吴恩达教授">
+            <img src="https://picsum.photos/150/150" alt="吴恩达教授">
             <h2 class="scholar-name">Andrew Ng（吴恩达）</h2>
             <div class="scholar-title">斯坦福大学计算机科学教授</div>
-            <p class="scholar-bio">吴恩达是人工智能领域的领军人物，曾创办Coursera和deeplearning.ai，专注于机器学习和深度学习研究。</p >
+            <p class="scholar-bio">吴恩达是人工智能领域的领军人物，曾创办Coursera和deeplearning.ai，专注于机器学习和深度学习研究。</p>
             <div class="scholar-links">
-                <a href=" " target="_blank">Google Scholar</a >
-                <a href="https://www.andrewng.org/" target="_blank">个人主页</a >
+                <a href="https://scholar.google.com/citations?user=unknown" target="_blank">Google Scholar</a>
             </div>
+            <iframe class="scholar-iframe" src="https://www.andrewng.org/"></iframe>
         </div>
 
         <!-- 学者 2 -->
         <div class="scholar-card">
-            < img src="/api/placeholder/150/150" alt="李飞飞教授">
+            <img src="https://picsum.photos/150/150" alt="李飞飞教授">
             <h2 class="scholar-name">Fei-Fei Li（李飞飞）</h2>
             <div class="scholar-title">斯坦福大学计算机科学教授</div>
-            <p class="scholar-bio">李飞飞是人工智能和计算机视觉领域的专家，曾担任谷歌云AI/ML首席科学家，是ImageNet数据集的创建者。</p >
+            <p class="scholar-bio">李飞飞是人工智能和计算机视觉领域的专家，曾担任谷歌云AI/ML首席科学家，是ImageNet数据集的创建者。</p>
             <div class="scholar-links">
-                <a href="https://scholar.google.com/citations?user=rDfyQnIAAAAJ" target="_blank">Google Scholar</a >
-                <a href="https://profiles.stanford.edu/fei-fei-li" target="_blank">个人主页</a >
+                <a href="https://scholar.google.com/citations?user=rDfyQnIAAAAJ" target="_blank">Google Scholar</a>
             </div>
+            <iframe class="scholar-iframe" src="https://profiles.stanford.edu/fei-fei-li"></iframe>
         </div>
 
         <!-- 学者 3 -->
         <div class="scholar-card">
-            < img src="/api/placeholder/150/150" alt="杨立昆教授">
+            <img src="https://picsum.photos/150/150" alt="杨立昆教授">
             <h2 class="scholar-name">Yann LeCun（杨立昆）</h2>
             <div class="scholar-title">纽约大学教授、Meta AI研究主管</div>
-            <p class="scholar-bio">杨立昆是深度学习领域的先驱，卷积神经网络的主要开发者之一，2018年图灵奖获得者。</p >
+            <p class="scholar-bio">杨立昆是深度学习领域的先驱，卷积神经网络的主要开发者之一，2018年图灵奖获得者。</p>
             <div class="scholar-links">
-                <a href="https://scholar.google.com/citations?user=WLN3QrAAAAAJ" target="_blank">Google Scholar</a >
-                <a href="http://yann.lecun.com/" target="_blank">个人主页</a >
+                <a href="https://scholar.google.com/citations?user=WLN3QrAAAAAJ" target="_blank">Google Scholar</a>
             </div>
+            <iframe class="scholar-iframe" src="http://yann.lecun.com/"></iframe>
         </div>
 
         <!-- 学者 4 -->
         <div class="scholar-card">
-            < img src="/api/placeholder/150/150" alt="Geoffrey Hinton教授">
+            <img src="https://picsum.photos/150/150" alt="Geoffrey Hinton教授">
             <h2 class="scholar-name">Geoffrey Hinton</h2>
             <div class="scholar-title">多伦多大学名誉教授</div>
-            <p class="scholar-bio">被称为"深度学习之父"，深度学习领域的开创者，2018年图灵奖获得者。</p >
+            <p class="scholar-bio">被称为"深度学习之父"，深度学习领域的开创者，2018年图灵奖获得者。</p>
             <div class="scholar-links">
-                <a href="https://scholar.google.com/citations?user=JicYPdAAAAAJ" target="_blank">Google Scholar</a >
-                <a href="https://www.cs.toronto.edu/~hinton/" target="_blank">个人主页</a >
+                <a href="https://scholar.google.com/citations?user=JicYPdAAAAAJ" target="_blank">Google Scholar</a>
             </div>
+            <iframe class="scholar-iframe" src="https://www.cs.toronto.edu/~hinton/"></iframe>
         </div>
 
         <!-- 学者 5 -->
         <div class="scholar-card">
-            < img src="/api/placeholder/150/150" alt="Yoshua Bengio教授">
+            <img src="https://picsum.photos/150/150" alt="Yoshua Bengio教授">
             <h2 class="scholar-name">Yoshua Bengio</h2>
             <div class="scholar-title">蒙特利尔大学教授</div>
-            <p class="scholar-bio">深度学习三巨头之一，MILA（蒙特利尔学习算法研究所）创始人，2018年图灵奖获得者。</p >
+            <p class="scholar-bio">深度学习三巨头之一，MILA（蒙特利尔学习算法研究所）创始人，2018年图灵奖获得者。</p>
             <div class="scholar-links">
-                <a href="https://scholar.google.com/citations?user=kukA0LcAAAAJ" target="_blank">Google Scholar</a >
-                <a href="https://yoshuabengio.org/" target="_blank">个人主页</a >
+                <a href="https://scholar.google.com/citations?user=kukA0LcAAAAJ" target="_blank">Google Scholar</a>
             </div>
+            <iframe class="scholar-iframe" src="https://yoshuabengio.org/"></iframe>
         </div>
 
         <!-- 学者 6 -->
         <div class="scholar-card">
-            < img src="/api/placeholder/150/150" alt="何恺明教授">
+            <img src="https://picsum.photos/150/150" alt="何恺明教授">
             <h2 class="scholar-name">Kaiming He（何恺明）</h2>
             <div class="scholar-title">Facebook AI研究院科学家</div>
-            <p class="scholar-bio">何恺明是计算机视觉领域的杰出研究者，ResNet和Mask R-CNN的主要作者，CVPR年度最佳论文获得者。</p >
+            <p class="scholar-bio">何恺明是计算机视觉领域的杰出研究者，ResNet和Mask R-CNN的主要作者，CVPR年度最佳论文获得者。</p>
             <div class="scholar-links">
-                <a href="https://scholar.google.com/citations?user=DhtAFkwAAAAJ" target="_blank">Google Scholar</a >
-                <a href="https://kaiminghe.github.io/" target="_blank">个人主页</a >
+                <a href="https://scholar.google.com/citations?user=DhtAFkwAAAAJ" target="_blank">Google Scholar</a>
             </div>
+            <iframe class="scholar-iframe" src="https://kaiminghe.github.io/"></iframe>
         </div>
     </div>
 
     <footer>
-        <p>© 2025 学者信息网页 | 此网页仅用于展示学术信息</p >
+        <p>© 2025 学者信息网页 | 此网页仅用于展示学术信息</p>
     </footer>
 </body>
 </html>
+    
